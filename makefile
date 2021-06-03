@@ -1,6 +1,6 @@
 tar = ils_ctsp.exe
-obj = main.o read.o 
-deps = basic.h read.h
+obj = main.o read.o initial_solution.o
+deps = basic.h read.h initial_solution.h
 cc = g++
 RMRF = del
 # RMRF :=rm -rf
