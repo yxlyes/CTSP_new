@@ -16,10 +16,10 @@ solution g_best_sol;
 solution temp_sol;
 
 void initial_array() {
-    sol.solution.resize(num_city, vector<int>(num_city + 1, -1));
-    sol.solution_reverse.resize(num_city, vector<int>(num_city + 1, -1));
-    best_sol.solution.resize(num_city, vector<int>(num_city + 1, -1));
-    g_best_sol.solution.resize(num_city, vector<int>(num_city + 1, -1));
+    sol.solution.resize(num_salesman, vector<int>(num_city + 1, -1));
+    sol.solution_reverse.resize(num_salesman, vector<int>(num_city + 1, -1));
+    best_sol.solution.resize(num_salesman, vector<int>(num_city + 1, -1));
+    g_best_sol.solution.resize(num_salesman, vector<int>(num_city + 1, -1));
 }
 int main(int argc, char* argv[]) {
     if (argc != 5) {

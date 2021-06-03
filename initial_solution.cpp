@@ -56,5 +56,12 @@ void initial_solution(solution& sol) {
         }
     }         
     //the second step : dispatch the shared cities
-    
+#ifdef DEBUG
+    for (int i = 0; i < sol.solution.size(); ++i) {
+        for (auto x : sol.solution[i]) {
+            cout << x << ' ';
+        }
+        cout << endl;
+    }
+#endif
 }

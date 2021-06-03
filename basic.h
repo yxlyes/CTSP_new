@@ -1,7 +1,7 @@
 #ifndef BASIC_H
 #define BASIC_H
 
-#define DEBUG1
+#define DEBUG
 
 #include <iostream>
 #include <vector>
